@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <meta name="description" content="Свяжитесь с нами для заказа видеосъемки в Москве. Телефон, email, форма обратной связи. Быстрая консультация по всем вопросам видеографии.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Логотип студии видеографии PoZorin"></a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Свяжитесь с нами</h1>
+        
+        <section>
+            <h2>Контактная информация</h2>
+            <p>Телефон: +7 (985) 123-45-67</p>
+            <p>Email: pozorin@video.ru</p>
+            <p>Адрес: г. Москва, ул. Малая Калужская д. 1</p>
+            <p>Режим работы: когда угодно</p>
+        </section>
+
+        <section>
+            <h2>Форма обратной связи</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="service">Интересующая услуга:</label>
+                    <select id="service" name="service">
+                        <option value="wedding">Моушн-дизайн</option>
+                        <option value="corporate">Ивент-съемка</option>
+                        <option value="advertisement">Фильм</option>
+                        <option value="other">Другое</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit">Отправить заявку</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Студия видеографии "PoZorin". Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
