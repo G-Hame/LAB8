@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Allow: /
+
+Sitemap: https://G-Hame.github.io/LAB8/sitemap.xml
